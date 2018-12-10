@@ -1,0 +1,262 @@
+
+#logo {
+    width: 251px;
+}
+#home {
+    width: 100%;
+    height: 900px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/static/healthclub/img/ladylifting.jpeg');
+    border-bottom: black solid 10px;
+}
+#home_pricing {
+    width: 100%;
+    height: 900px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/static/healthclub/img/ladylifting.jpeg');
+    border-bottom: black solid 10px;
+}
+.slogan {
+    text-align: center;
+    padding-top: 30px;
+}
+.white_text {
+    color: white;
+    opacity: 1.0;
+}
+#healthclub {
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 39px;
+    background-image: url('/static/healthclub/img/weights.jpeg');
+    border-bottom: black solid 10px;
+}
+.pics_container {
+    display: inline-block;
+    width: 450px;
+    vertical-align: top;
+    
+}
+.health_pics {
+    filter: grayscale(100%);
+    width: 83%;
+    height: 300px;
+    background-size: cover;
+    background-image: url('/static/healthclub/img/cycle.jpg');
+    margin-right: 15px;
+    vertical-align: top;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.health_pics2 {
+    filter: grayscale(100%);
+    width: 83%;
+    height: 300px;
+    background-size: cover;
+    background-image: url('/static/healthclub/img/squat.jpg');
+    margin-right: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.health_pics3 {
+    filter: grayscale(100%);
+    width: 83%;
+    height: 300px;
+    background-size: cover;
+    background-image: url('/static/healthclub/img/guytriceps.jpeg');
+    margin-right: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.white_text_small {
+    color: white;
+    padding-top: 20px;
+    text-align: right;
+    padding-right: 5px;
+    opacity: 1.0;
+}
+.info_text {
+    display:inline-block;
+    color: rgb(255, 255, 255);
+    margin-top: 17px;
+    opacity: 0.6;
+    font-size: 26px;
+    
+}
+.carousel_main {
+    text-align: center;
+}
+#carousel_container {
+    padding-top: 15px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+#carosel_1 {
+    display: inline-block;
+}
+.caro_imgs {
+    width: 75px;
+    vertical-align: top;
+    padding-left: 5px;
+    padding-right: 5px;
+    opacity: 0.75;
+}
+#alogo {
+    display: inline-block;
+    width: 300px;
+    opacity: 0.5;
+    margin-top: 200px;
+    margin-bottom: 89px;
+}
+#alogo_pricing {
+    display: inline-block;
+    width: 300px;
+    opacity: 0.5;
+    margin-top: 200px;
+    margin-bottom: 89px;
+    z-index: 2;
+}
+#services {
+    filter: grayscale(100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(to left,rgb(171, 171, 171),rgb(15, 15, 15));
+    height: 120%;
+    padding-bottom: 50px;
+    text-align: center;
+    border-bottom: solid black 10px;
+}
+.service_box {
+    margin-top: 40px;
+    display: inline-block;
+    margin-right: 30px;
+    width: 300px;
+    height: 450px;
+    /* border: black 1px solid; */
+    vertical-align: top;
+    border-radius: 15px;
+}
+.white_text_service {
+    color: white;
+    opacity: 1.0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: black 2px dotted;
+}
+.list_contain {
+    text-align: center;
+}
+.h5_desc {
+    font-size: 18px;
+    padding-top: 15px;
+    color: white;
+    opacity: 0.75;
+}
+#affiliates {
+    height: 100%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+    text-align: center;
+}
+.aff {
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.aff_pics {
+    width: 300px;
+    border-radius: 20px;
+}
+#location {
+    text-align: center;
+    height: 100%;
+}
+#loc_text {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+#overlay {
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgb(0.0,0.0,0.0,0.7);
+    padding-bottom: 30px;
+}
+.pricing_info {
+    width: 300px;
+    height: 100%;
+    /* background-color: rgb(171, 171, 171); */
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 50px;
+}
+.pricing_info_sauna {
+    width: 300px;
+    height: 100%;
+    /* background-color: rgb(171, 171, 171); */
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 50px;
+}
+#center {
+    text-align: center;
+}
+.membership_text {
+    color: white;
+}
+.membership_text_gray {
+    color: rgb(130, 130, 130);
+    padding-top: 30px;
+}
+#black_bg {
+    height: 100%;
+    padding-bottom: 50px;
+    background-color: black;
+    overflow: auto;
+}
+.pesos {
+    width: 18px;
+    vertical-align: top;
+    padding-top: 2px;
+    opacity: 0.65;
+}
+#address_pic {
+    width: 160px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 29px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: solid 2px white;
+}
+.smalllogo {
+    width: 200px;
+    opacity: 0.4;
+    padding-top: 20px;
+}
+.alogo2 {
+    width: 250px;
+    opacity: 0.4;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    padding-bottom: 20px;
+}

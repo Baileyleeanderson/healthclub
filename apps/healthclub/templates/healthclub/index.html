@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Health Club</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'healthclub/style.css' %}" media="screen" title="no title"  charset="utf-8">
+  <script src="{% static 'healthclub/js/jquery.js' %}"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#home"><img id="logo" src="{% static 'healthclub/img/logo.png' %}"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#healthclub">Health Club </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#affiliates">Address</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pricing">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    
+    <div id="wrapper">
+        <div id="home">
+            <div class="slogan">
+                <img id="alogo" src="{% static 'healthclub/img/alogo.png' %}">
+                <h2 class="white_text">Aim.</h2>
+                <h2 class="white_text">Adapt.</h2>
+                <h2 class="white_text">Achieve.</h2>
+            </div>
+        </div>
+
+        <div id="healthclub">
+            <div class="pics_container">
+                <div class="health_pics">
+                    <h3 class="white_text_small">SPIN</h3>
+                </div>   
+            </div>
+            <div class="pics_container">
+                <div class="health_pics2">
+                    <h3 class="white_text_small">SQUAT</h3>
+                </div>
+            </div>
+            <div class="pics_container">
+                <div class="health_pics3">
+                    <h3 class="white_text_small">SWEAT</h3>
+                </div>  
+            </div>
+        </div>
+
+        <div id="services">
+            <div class="carousel_main">
+                <div id="carousel_container">
+                    <div id="carousel_1" class="carousel slide" data-ride="carousel" data-interval="1950">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <h2 class="info_text">Fast-Paced, Energetic, Fitness</h2>
+                        </div>
+                        <div class="carousel-item">
+                            <h2 class="info_text">Dedicated Personal Trainers </h2>
+                        </div>
+                        <div class="carousel-item">
+                            <h2 class="info_text">Full Service High-End Gym </h2>
+                        </div>
+                        <div class="carousel-item">
+                            <h2 class="info_text">Spa, Sauna, Cafe </h2>
+                        </div>   
+                        <div class="carousel-item">
+                            <h2 class="info_text">MMA, Kickboxing, Jiu Jitsu</h2>
+                        </div>   
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service_box">
+                <img class="caro_imgs" src="{% static 'healthclub/img/weighticon.png' %}">
+                <h4 class="white_text_service">GYM</h4>
+                <div class="list_contain">
+                    <h5 class="h5_desc">Full Service Gym</h5><br>
+                    <h5 class="h5_desc">High-End Equipment</h5><br>
+                    <h5 class="h5_desc">Treadmills</h5><br>
+                    <h5 class="h5_desc">Stationary Cyles</h5><br>
+                    <h5 class="h5_desc">Free Weights</h5>
+                </div>
+            </div>
+            <div class="service_box">
+                <img class="caro_imgs" src="{% static 'healthclub/img/classicon.png' %}">
+                <h4 class="white_text_service">CLASSES</h4>
+                <div class="list_contain">
+                    <h5 class="h5_desc">Cardio</h5><br>
+                    <h5 class="h5_desc">Martial Arts</h5><br>
+                    <h5 class="h5_desc">Cyling</h5><br>
+                    <h5 class="h5_desc">Rowing</h5><br>
+                    <h5 class="h5_desc">Pound!</h5>
+                </div>
+            </div>
+            <div class="service_box">
+                <img class="caro_imgs" src="{% static 'healthclub/img/trainer.png' %}">
+                <h4 class="white_text_service">PERSONAL TRAINING</h4>
+            <div class="list_contain">
+                <h5 class="h5_desc">World Class Instructors</h5><br>
+                <h5 class="h5_desc">Certifed Trainers</h5><br>
+                <h5 class="h5_desc">Progression Tracking</h5><br>
+                <h5 class="h5_desc">Meal Plans</h5><br>
+                <h5 class="h5_desc">Private Training</h5>
+            </div>
+            </div>
+            <div class="service_box">
+                <img class="caro_imgs" src="{% static 'healthclub/img/spaicon.png' %}">
+                <h4 class="white_text_service">SPA</h4>
+                <div class="list_contain">
+                    <h5 class="h5_desc">Full Service Spa</h5><br>
+                    <h5 class="h5_desc">Sauna</h5><br>
+                    <h5 class="h5_desc">Massage</h5><br>
+                    <h5 class="h5_desc">Laser Services</h5><br>
+                </div>
+            </div>
+        </div>
+        <div id="location">
+            <div style="background-color: black; padding-bottom: 25px;">
+                <h3 id="loc_text">Located At The Prime <br> MacArthur Highway, San Sebastian,<br>Tarlac City, Tarlac</h3>
+                <img class="alogo2" src="{% static 'healthclub/img/logo.png' %}">
+                <a href="https://www.google.com/maps/place/Manila+North+Road+%26+Calle+Lucinda,+San+Sebastian,+Tarlac+City,+Tarlac/@15.4678728,120.5982846,365m/data=!3m2!1e3!4b1!4m5!3m4!1s0x3396c667cfb901b5:0x40ad5aa2436b2504!8m2!3d15.4678728!4d120.5992564"><img id="address_pic" src="{% static 'healthclub/img/address.png' %}"></a>
+                <img class="smalllogo" src="{% static 'healthclub/img/alogo.png' %}">
+            </div>
+        </div>
+        <div id="affiliates">
+            <div class="aff">
+                <img class="aff_pics" src="{% static 'healthclub/img/deftac.png' %}">
+            </div>
+            <div class="aff">
+                <img class="aff_pics" src="{% static 'healthclub/img/bjj.png' %}">
+            </div>
+            <div class="aff">
+                <img class="aff_pics" src="{% static 'healthclub/img/purenectar.png' %}">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
